@@ -64,3 +64,4 @@ FROM nonbrand_test_sessions_w_landing_page
 LEFT JOIN nonbrand_test_bounced_sessions
   ON nonbrand_test_bounced_sessions.website_session_id = nonbrand_test_sessions_w_landing_page.website_session_id
 GROUP BY 1;
+
